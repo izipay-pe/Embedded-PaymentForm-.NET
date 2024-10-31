@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "46saU2Ar+vYauVxLIiqH5HwHbTAy720DzcNs4yqvoPIYCQC5FYon5fGQlAqbU4q4JUhwtL5cZeZjm9fWrP5EZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Embedded-PaymentForm-.NET\\Embedded-PaymentForm-.NET\\Embedded-PaymentForm-.NET\\Embedded-PaymentForm-.NET.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
