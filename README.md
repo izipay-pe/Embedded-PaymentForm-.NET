@@ -1,4 +1,4 @@
-# [Embedded-PaymentForm-.NetCore]
+# [Embedded-PaymentForm-.NET]
 ##  Índice
 * [1. Introducción](#1-introducción)
 * [2. Requisitos previos](#2-requisitos-previos)
