@@ -103,35 +103,4 @@
 </section>
 
 @section extrajs {
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const form = document.querySelector('form');
-            const amountInput = document.getElementById('amount');
-
-            const hiddenAmount = document.createElement('input');
-            hiddenAmount.type = 'hidden';
-            hiddenAmount.name = 'amount';
-            hiddenAmount.id = 'amountInCents';
-            amountInput.after(hiddenAmount);
-
-            amountInput.name = 'displayAmount';
-
-            function convertToCents(amount) {
-                const cleanAmount = amount.toString().trim().replace(/^0+/, '');     
-                const number = parseFloat(cleanAmount);
-                return Math.round(number * 100);
-            }
-
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-
-                const originalAmount = amountInput.value;
-
-                const amountInCents = convertToCents(originalAmount);
-                hiddenAmount.value = amountInCents;
-
-                this.submit();
-            });
-        });
-    </script>
 }
