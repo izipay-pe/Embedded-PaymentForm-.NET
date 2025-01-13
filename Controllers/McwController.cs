@@ -41,7 +41,7 @@ namespace Embedded_PaymentForm_.NET.Controllers
             // Almacenar los valores para el formulario de pago
             var data = new
             {
-                amount = paymentRequest.Amount,
+                Math.Round(paymentRequest.Amount * 100.0, 0),
                 currency = paymentRequest.Currency,
                 customer = new
                 {
