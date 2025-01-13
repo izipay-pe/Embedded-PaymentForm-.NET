@@ -71,7 +71,7 @@ Reemplace **[CHANGE_ME]** con sus credenciales de `API REST` extraídas desde el
 1. Una vez dentro del código ejecutamos el proyecto con el comando F5, se abrirá en tu navegador predeterminado y accedera en la siguiente ruta:
 
 ```sh
-https://localhost:44345/
+https://localhost:7095/
 ``` 
 
 <p align="center">
