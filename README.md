@@ -60,9 +60,9 @@ Reemplace **[CHANGE_ME]** con sus credenciales de `API REST` extraídas desde el
 ```json
 "ApiCredentials": {
         "USERNAME": "CHANGE_ME_USER_ID",
-        "PASSWORD": "CHANGE_ME_USER_ID",
-        "PUBLIC_KEY": "CHANGE_ME_USER_ID",
-        "HMACSHA256": "CHANGE_ME_USER_ID"
+        "PASSWORD": "CHANGE_ME_PASSWORD",
+        "PUBLIC_KEY": "CHANGE_ME_PUBLIC_KEY",
+        "HMACSHA256": "CHANGE_ME_HMAC_SHA_256"
     }
 ```
 
@@ -275,9 +275,9 @@ Reemplace **[CHANGE_ME]** con sus credenciales de PRODUCCIÓN de `API REST` extr
 ```json
 "ApiCredentials": {
         "USERNAME": "CHANGE_ME_USER_ID",
-        "PASSWORD": "CHANGE_ME_USER_ID",
-        "PUBLIC_KEY": "CHANGE_ME_USER_ID",
-        "HMACSHA256": "CHANGE_ME_USER_ID"
+        "PASSWORD": "CHANGE_ME_PASSWORD",
+        "PUBLIC_KEY": "CHANGE_ME_PUBLIC_KEY",
+        "HMACSHA256": "CHANGE_ME_HMAC_SHA_256"
     }
 ```
 
